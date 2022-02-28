@@ -1,0 +1,13 @@
+*.pyc
+
+# Ignore all the virtualenv stuff except the actual packages
+# themselves
+#/bin
+#/include
+#/lib/python*/*
+#!/lib/python*/site-packages
+
+# Ignore easyinstall and setuptools
+.venv/Lib/*
+.venv/Scripts/*
+./venv/Lib/site-packages*
